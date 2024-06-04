@@ -1,8 +1,0 @@
-sets:
-  - title: "Networking"
-    acronyms:
-      DNS: "Domain Name Service"
-      IMAP: "Internet Message Access Protocol"
-  - title: "Another set"
-    acronyms:
-      EB: "Explosive Bullets"
