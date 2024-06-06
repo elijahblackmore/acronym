@@ -1,9 +1,13 @@
 import random
 import yaml
+import os
 
 
 def get_sets():
-    yaml_file_path = "../acronym.yaml"
+    home_directory = os.path.expanduser("~")
+    yaml_file_path = os.path.join(
+        home_directory, ".config", "acronym", "acronym.yaml"
+    )
 
     try:
         with open(yaml_file_path, "r") as file:
